@@ -27,20 +27,20 @@ The ZenML pipeline consists of the following stages:
 1. **Clone the repository:**
 
 ```bash
-git clone https://github.com/your-username/zenml-customer-insights.git
+git clone https://github.com/jgfurlan/Customer-Satisfaction-Insights
 ```
 
 2. **Install dependencies:**
 
 ```bash
-cd zenml-customer-insights
+cd 'Customer-Satisfaction-Insights'
 pip install -r requirements.txt
 ```
 
 3. **Run the pipeline:**
 
 ```bash
-zenml run --pipeline customer_insights
+zenml run --pipeline run_pipeline.py
 ```
 
 **Documentation:**
